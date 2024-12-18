@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 100px;
+}
+
+.box {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.pinkbox {
+    border: 1px solid #f21d87;
+    background-color: #f21d87;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+}
+
+.pinkbox h2 {
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.pinkbox p {
+    padding-bottom: 30px;
+
+}
+
+.pinkbox a {
+    color: black;
+    /* font-family: inherit; */
+}
+
+.ptags {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.bluebox {
+    border: 1px solid #7ddbe4;
+    background-color: #7ddbe4;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+    border-radius: 2px;
+}
+
+.bluebox h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.bluebox p {
+    padding-bottom: 30px;
+
+}
+
+.bluebox a {
+    color: black;
+    /* font-family: inherit; */
+}
+
+.orangebox {
+    border: 1px solid #ffc857;
+    background-color: #ffc857;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+}
+
+.orangebox h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.orangebox p {
+    padding-bottom: 30px;
+
+}
+
+.orangebox a {
+    color: black;
+    font-family: inherit;
+}
+
+.yellowbox {
+    border: 1px solid yellow;
+    background-color: yellow;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+}
+
+.yellowbox h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.yellowbox p {
+    padding-bottom: 30px;
+
+}
+
+.yellowbox a {
+    color: black;
+    font-family: inherit;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+    grid-template-rows:  300px 300px 300px 300px  ;
+    height: 300px;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: white;
+}
+
+.odd {
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.grid{
+    background-color:black;
+    padding: 40px;
+    border: 1px solid black;
+
+    height: 1000px;
+}
+.grid-item{
+    border: 1px solid black;
+    background-color: gray;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+}
